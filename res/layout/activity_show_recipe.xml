@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_violett"
+    tools:context="com.example.testsawa.ShowRecipe$PlaceholderFragment" >
+
+    <ScrollView
+        
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+				 <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"              
+                    android:layout_marginTop="18dp"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                
+                <TextView
+                    android:id="@+id/recipe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+      		 
+                <TextView
+                    android:id="@+id/ingredients"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Small Text" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                
+				<TextView
+                    android:id="@+id/preparation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+				
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

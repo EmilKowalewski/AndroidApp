@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="button_Nudel">Nudel</string>
+    <string name="button_Gurke">Gurke</string>
+    <string name="button_Tomate">Tomate</string>
+    <string name="button_Hirse">Hirse</string>
+    <string name="button_Mehl">Mehl</string>
+    <string name="button_Sauerkraut">Sauerkraut</string>
+    <string name="button_Milch">Milch</string>
+    <string name="button_Ei">Ei</string>
+    <string name="button_Muesli">Muesli</string>
+    <string name="button_Pilze">Pilze</string>
+    <string name="button_Bohnen">Bohnen</string>
+    <string name="button_Reis">Reis</string>
+</resources>

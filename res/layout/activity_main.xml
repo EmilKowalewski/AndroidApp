@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.main.sawa.MainActivity$PlaceholderFragment" >
+    <ImageButton
+        android:id="@+id/db"
+        android:layout_width="201dp"
+        android:layout_height="57dp"
+        android:layout_alignLeft="@+id/v_rezepte"
+        android:layout_below="@+id/pyramid"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_download"
+        android:onClick="menuClick"
+        android:text="Rezepten Doowload" />
+
+    <ImageButton
+        android:id="@+id/pyramid"
+        android:layout_width="201dp"
+        android:layout_height="57dp"
+        android:layout_alignLeft="@+id/v_rezepte"
+        android:layout_below="@+id/v_rezepte"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/button_suche"
+        android:onClick="menuClick"
+        android:text="@string/pyramid" />
+
+    <ImageButton
+        android:id="@+id/v_rezepte"
+        android:layout_width="201dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/button_rezepte"
+        android:onClick="menuClick"
+        android:soundEffectsEnabled="true"
+        android:text="@string/v_rezepte" />
+
+</RelativeLayout>

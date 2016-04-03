@@ -1,0 +1,138 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_violett"
+    tools:context="de.piramid.sawa.PyramidFragmentD" >
+	
+   <ScrollView
+     android:id="@+id/ScrollView01"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:columnCount="4" >
+      	
+        <ToggleButton
+             android:id="@+id/button_Butter"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Butter"
+             android:textOn="Butter" />
+        <ToggleButton
+             android:id="@+id/button_Margarine"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Margarine"
+             android:textOn="Margarine" />
+        <ToggleButton
+             android:id="@+id/button_Kochfette"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Kochfette"
+             android:textOn="Kochfette" />
+        <ToggleButton
+             android:id="@+id/button_Bratfette"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Bratfette"
+             android:textOn="Bratfette" />
+        <ToggleButton
+             android:id="@+id/button_Backfette"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Backfette"
+             android:textOn="Backfette" />
+        <ToggleButton
+             android:id="@+id/button_Siedefette"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Siedefette"
+             android:textOn="Siedefette" />
+        <ToggleButton
+             android:id="@+id/button_Speisefett"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Speisefett"
+             android:textOn="Speisefett" />
+        <ToggleButton
+             android:id="@+id/button_Pflanzenfett"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Pflanzenfett"
+             android:textOn="Pflanzenfett" />
+        <ToggleButton
+             android:id="@+id/button_Olivenoel"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Olivenöl"
+             android:textOn="Olivenöl" />
+        <ToggleButton
+             android:id="@+id/button_Kokosfett"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Kokosfett"
+             android:textOn="Kokosfett" />
+        <ToggleButton
+             android:id="@+id/button_Arganoel"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Arganöl"
+             android:textOn="Arganöl" />
+        <ToggleButton
+             android:id="@+id/button_Rapsoel"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Rapsöl"
+             android:textOn="Rapsöl" />
+        <ToggleButton
+             android:id="@+id/button_Sonnenblumenoel"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickFett"
+             android:textOff="Sonnenblumenöl"
+             android:textOn="Sonnenblumenöl" />
+        
+    </GridLayout>
+  </ScrollView>
+</FrameLayout>

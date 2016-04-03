@@ -1,0 +1,190 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_violett"
+    tools:context="de.piramid.sawa.PyramidFragmentB" >
+
+  <ScrollView
+     android:id="@+id/ScrollView01"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:layout_margin="15dp" >
+
+         <ToggleButton
+             android:id="@+id/button_Brot"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Brot"
+             android:textOn="Brot" />
+         
+         <ToggleButton
+             android:id="@+id/button_Nudeln"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Nudeln"
+             android:textOn="Nudeln" />
+              
+         <ToggleButton
+             android:id="@+id/button_Weissmehl"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Weißmehl"
+             android:textOn="Weißmehl" />
+         
+         <ToggleButton
+             android:id="@+id/button_Vollkornprodukte"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Vollkornprodukte"
+             android:textOn="Vollkornprodukte" />
+         
+         <ToggleButton
+             android:id="@+id/button_Kirschen"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Kirschen"
+             android:textOn="Kirschen" />
+         
+         <ToggleButton
+             android:id="@+id/button_Broetchen"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Brötchen"
+             android:textOn="Brötchen" />
+         
+         <ToggleButton
+             android:id="@+id/button_Reis"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Reis"
+             android:textOn="Reis" />
+         
+         <ToggleButton
+             android:id="@+id/button_Meis"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Meis"
+             android:textOn="Meis" />
+         
+         <ToggleButton
+             android:id="@+id/button_Bulgur"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Bulgur"
+             android:textOn="Bulgur" />
+         
+         <ToggleButton
+             android:id="@+id/button_Amaranth"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Amaranth"
+             android:textOn="Amaranth" />
+         
+         <ToggleButton
+             android:id="@+id/button_Hirse"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Hirse"
+             android:textOn="Hirse" />
+         
+         <ToggleButton
+             android:id="@+id/button_Haferflocken"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Haferflocken"
+             android:textOn="Haferflocken" />
+         
+         <ToggleButton
+             android:id="@+id/button_Weizenmehl"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Weizenmehl"
+             android:textOn="Weizenmehl" />
+         
+         <ToggleButton
+             android:id="@+id/button_Weizenvollkornmehl"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Weizenvollkornmehl"
+             android:textOn="Weizenvollkornmehl" />
+         
+         <ToggleButton
+             android:id="@+id/button_Gnocci"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Gnocci"
+             android:textOn="Gnocci" />
+         
+         <ToggleButton
+             android:id="@+id/button_Zucker"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Zucker"
+             android:textOn="Zucker" />
+         
+         <ToggleButton
+             android:id="@+id/button_Hartweizen"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickRate"
+             android:textOff="Hartweizen"
+             android:textOn="Hartweizen" />
+           
+</GridLayout>
+</ScrollView>
+</FrameLayout>

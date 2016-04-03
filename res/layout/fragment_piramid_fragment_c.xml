@@ -1,0 +1,264 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_green"
+    tools:context="de.piramid.sawa.PyramidFragmentC" >
+
+    <ScrollView
+     android:id="@+id/ScrollView01"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <GridLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="15dp"
+         android:columnCount="4" >
+
+         <ToggleButton
+             android:id="@+id/button_Raeuchertofu"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Raeuchertofu"
+             android:textOn="Raeuchertofu" />
+         
+         <ToggleButton
+             android:id="@+id/button_Seidentofu"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Seidentofu"
+             android:textOn="Seidentofu" />
+         
+         <ToggleButton
+             android:id="@+id/button_Amaranthsprossen"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Amaranthsprossen"
+             android:textOn="Amaranthsprossen" />
+         
+         <ToggleButton
+             android:id="@+id/button_Ei"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Ei"
+             android:textOn="Ei" />
+         
+         <ToggleButton
+             android:id="@+id/button_Kidneybohnen"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Kidneybohnen"
+             android:textOn="Kidneybohnen" />
+         
+         <ToggleButton
+             android:id="@+id/button_Mungobohnen"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Mungobohnen"
+             android:textOn="Mungobohnen" />
+         
+         <ToggleButton
+             android:id="@+id/button_Sojabohnen"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Sojabohnen"
+             android:textOn="Sojabohnen" />
+         
+         <ToggleButton
+             android:id="@+id/button_Leinsamen"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Leinsamen"
+             android:textOn="Leinsamen" />
+         
+         <ToggleButton
+             android:id="@+id/button_Erdnuesse"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Erdnuesse"
+             android:textOn="Erdnuesse" />
+         
+         <ToggleButton
+             android:id="@+id/button_Acerola"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Acerola"
+             android:textOn="Acerola" />
+       
+         <ToggleButton
+             android:id="@+id/button_Cashewnuesse"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Cashewnuesse"
+             android:textOn="Cashewnuesse" />
+         
+         <ToggleButton
+             android:id="@+id/button_Sonnenblumenkerne"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Sonnenblumenkerne"
+             android:textOn="Sonnenblumenkerne" />
+         
+         <ToggleButton
+             android:id="@+id/button_Chia_Samen"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Chia-Samen"
+             android:textOn="Chia-Samen" />
+         
+         <ToggleButton
+             android:id="@+id/button_Mandeln"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Mandeln"
+             android:textOn="Mandeln" />
+         
+         <ToggleButton
+             android:id="@+id/button_Quinoa"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Quinoa"
+             android:textOn="Quinoa" />
+         
+         <ToggleButton
+             android:id="@+id/button_Amaranth"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Amaranth"
+             android:textOn="Amaranth" />
+         
+         <ToggleButton
+             android:id="@+id/button_Tempeh"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Tempeh"
+             android:textOn="Tempeh" />
+         
+         <ToggleButton
+             android:id="@+id/button_Haferflocken"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Haferflocken"
+             android:textOn="Haferflocken" />
+         
+         <ToggleButton
+             android:id="@+id/button_Seitan"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Seitan"
+             android:textOn="Seitan" />
+         
+
+         
+         <ToggleButton
+             android:id="@+id/button_Brunnenkresse"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Brunnenkresse"
+             android:textOn="Brunnenkresse" />
+         
+         <ToggleButton
+             android:id="@+id/button_Senfblaetter"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Senfblätter"
+             android:textOn="Senfblätter" />
+         
+         <ToggleButton
+             android:id="@+id/button_Kuerbiskerne"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Kürbiskerne"
+             android:textOn="Kürbiskerne" />
+         
+         <ToggleButton
+             android:id="@+id/button_Sesamsaat"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Sesamsaat"
+             android:textOn="Sesamsaat" />
+         
+         <ToggleButton
+             android:id="@+id/button_Hirse"
+             android:layout_width="75dp"
+             android:layout_height="65dp"
+             android:layout_gravity="top"
+             android:clickable="true"
+             android:onClick="imageClickEiweiss"
+             android:textOff="Hirse"
+             android:textOn="Hirse" />
+  
+                  
+		</GridLayout>
+	</ScrollView>
+</FrameLayout>

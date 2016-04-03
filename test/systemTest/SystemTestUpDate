@@ -1,0 +1,30 @@
+Eingangsinformationen:
+
+    Durchgeführt von:Emil Kowalewski
+    Involvierte Teilsysteme: Alle Klassen  
+    Netzwerkeverbindung: ja
+    Engerät / Emulator: Endgerät - Samsung Galaxy s3 mini
+    Parser: ja 
+    Sonstiges: 
+
+Erwartung:
+		Nachdem auf dem Server neue Versionsdatei erstellt,  
+		wird auf dem Download Button geklickt. Wenn die neue Dateien heruntergeladen 
+		sind wird der Inhalte der Dateien überprüft. Sie sollen neuen Informationen beinhalten.
+		Als nächstes werden die Funktionen Suche Rezepte und Rezepte Auflisten ausgeführt. 
+		Zweck dieser Aktion ist es zu überprüfen ob die neue Inhalten in der Listen auftauchen. 
+		Zu erste wird das Auflisten der Rezepte Ausgeführt und überprüft ob die neue Inhalte 
+		aufgelistete und angezeigt werden. Als weiteres wird die Suche Rezept gestartet. 
+		Es werden die Zutaten angeklickt die mit Sicherheit diese neue Inhalte ausgeben sollen. 
+		
+		Weiter Teil des Tests überprüft ob es zu einem Download kommt wenn die Datei auf dem Server 
+		gleich alt oder älter ist. Wenn die angegeben Voraussetzungen gegeben sind soll es zum 
+		keinen Update der Datenbank kommen.      
+
+	
+Ergebniss: 
+	
+		Es traten keine Fehler auf. Das System hat alle Test mit erwarteten Ergebnissen bestanden.  
+ 
+
+Sonstiges:

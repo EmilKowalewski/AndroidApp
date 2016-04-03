@@ -1,0 +1,30 @@
+Eingangsinformationen:
+
+    Durchgeführt von:Emil Kowalewski
+    Involvierte Teilsysteme: Alle Klassen der de.piramid.sawa, de.rec.sawa, de.main.sawa und de.show.sawa 
+    Netzwerkeverbindung: nein
+    Engerät / Emulator: Endgerät - Samsung Galaxy s3 mini
+    Parser: ja 
+    Sonstiges: 
+
+Erwartung:
+	
+	Es werden alle Button der jeweiligen Fragment betätig. 
+	Als nächstes werden alle Buttons mehrere Male angeklickt. 
+	Somit wird überprüft ob der angeklickte Button von ihm gespeicherten 
+	Zutat in Form eines Strings speicher oder Löscht. 
+	In dem Test folgen weitere Aktionen. Es werden vorher bestimmte Buttons 
+	angeklickt und auf dem "Suche starten" Button betätig.
+	Es wurde sichergestellt, dass  mit diesen Zutaten eine bestimmte 
+	Rezept ausgesucht werden sollte. Als weiter Schritt es wird geguckt, 
+	ob diese erwartete Rezept in der List auftaucht und, 
+	ob sie richtig in dem Anzeigefenster angezeigt wird . 
+	
+Ergebniss: 
+	
+		Es traten Fehler in der Fragmenten auf. 
+		Es wurden manche Button falsch initialisiert oder es wurde vergessen 
+		die zu Initialisieren. Diese Fehler wurden sofort behoben. Sonst traten keine Fehler in der 
+		Liste oder in dem Anzeigefenster auf.  
+
+Sonstiges:

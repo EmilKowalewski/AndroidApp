@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sawa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="v_rezepte">V Rezepte</string>
+    <string name="title_activity_recipe">Recipe</string>
+    <string name="title_activity_db_manager">DbManager</string>
+    <string name="title_activity_my_base_expandable_list_adapter">MyBaseExpandableListAdapter</string>
+    <string name="title_activity_show_recipe">ShowRecipe</string>
+    <string name="pyramid">Pyramide</string>
+    <string name="title_activity_pyramid">MainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section4">Section 4</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_asd">Asd</string>
+    <string name="title_activity_piramid_activity">PiramidActivityA</string>
+    <string name="title_activity_testtt">Testtt</string>
+    <string name="title_activity_choose">ChooseActivity</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_test_activitie">TestActivitie</string>
+    <string name="title_activity_xml_manager">XmlManager</string>
+    <string name="title_activity_recipy_xml">RecipyXml</string>
+    <string name="title_activity_test_first">Test_first</string>
+    <string name="title_activity_show_mach">ShowMach</string>
+    <string name="title_activity_piramid_fragment_d">PiramidFragmentD</string>
+    <string name="title_activity_piramid_fragment_f">PiramidFragmentF</string>
+
+</resources>
